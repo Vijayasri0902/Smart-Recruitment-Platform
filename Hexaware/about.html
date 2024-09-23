@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hire Hub</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo">Hire Hub</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Banner Section -->
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>Discover Your Perfect Job Match</h1>
+            <p>Your recruitment process made simpler, smarter, and faster.</p>
+            <a href="login.html" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services-container">
+            <div class="service">
+                <i class="fas fa-briefcase"></i>
+                <h3>Job Posting</h3>
+                <p>Post your job offers and reach a wide audience effortlessly.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-search"></i>
+                <h3>Candidate Search</h3>
+                <p>Use advanced filters to find the perfect candidates for your needs.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-calendar-alt"></i>
+                <h3>Interview Scheduling</h3>
+                <p>Automate the scheduling process and save time on logistics.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-upload"></i>
+                <h3>Resume Upload</h3>
+                <p>Upload your resume and let employers find you easily.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials">
+        <h2>What Our Users Say</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <p>"This platform has revolutionized our hiring process. Highly recommend!"</p>
+                <em>- Jane Doe, HR Manager</em>
+            </div>
+            <div class="testimonial">
+                <p>"The filters and tools available make it so easy to find the right candidates."</p>
+                <em>- John Smith, Recruiter</em>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="resume">Upload Resume:</label>
+            <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 Hire Hub. All rights reserved.</p>
+            <ul class="footer-links">
+                <li><a href="#home">Privacy Policy</a></li>
+                <li><a href="#services">Terms of Use</a></li>
+                <li><a href="#contact">Sitemap</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- FontAwesome for Icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
